@@ -1,5 +1,4 @@
-// npm install express
-
+const login = require("./api/login");
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -15,6 +14,9 @@ app.get("/test", (req, res) => {
   console.log("start");
   res.send(JSON.stringify(testData));
 });
+
+app.get("/login", login);
+
 app.listen(PORT, () => {
   console.log(`Server On : http://localhost:${PORT}/`);
 });

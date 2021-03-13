@@ -2,7 +2,7 @@
   "name": "greenAct",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "server.js",
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
@@ -26,4 +26,5 @@
     "url": "https://github.com/juyeon999/Greenact/issues"
   },
   "homepage": "https://github.com/juyeon999/Greenact#readme"
+
 }
