@@ -1,0 +1,314 @@
+[
+{
+    "type": "header",
+    "version": "5.0.4",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "sep_collection"
+},
+{
+    "type": "table",
+    "name": "general_trash",
+    "database": "sep_collection",
+    "data": 
+[
+{
+    "id": "1",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "딱딱한 껍질",
+    "CONTENTS": "호두 껍질",
+    "NOTE": ""
+},
+{
+    "id": "2",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "딱딱한 껍질",
+    "CONTENTS": "밤 껍질",
+    "NOTE": ""
+},
+{
+    "id": "3",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "딱딱한 껍질",
+    "CONTENTS": "땅콩 껍질",
+    "NOTE": ""
+},
+{
+    "id": "4",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "딱딱한 껍질",
+    "CONTENTS": "도토리 껍질",
+    "NOTE": ""
+},
+{
+    "id": "5",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "큰 과일,채소의 껍질",
+    "CONTENTS": "파인애플 껍질",
+    "NOTE": "잘게 부수면 음식물 쓰레기로 버릴 수 있음"
+},
+{
+    "id": "6",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "큰 과일,채소의 껍질",
+    "CONTENTS": "수박 껍질",
+    "NOTE": "잘게 부수면 음식물 쓰레기로 버릴 수 있음"
+},
+{
+    "id": "7",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "씨앗",
+    "CONTENTS": "복숭아 씨",
+    "NOTE": ""
+},
+{
+    "id": "8",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "씨앗",
+    "CONTENTS": "살구 씨",
+    "NOTE": ""
+},
+{
+    "id": "9",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "씨앗",
+    "CONTENTS": "감 씨",
+    "NOTE": ""
+},
+{
+    "id": "10",
+    "CLASS": "과일류",
+    "CHARACTERISTICS": "씨앗",
+    "CONTENTS": "자두 씨",
+    "NOTE": ""
+},
+{
+    "id": "11",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "양파 껍질",
+    "NOTE": ""
+},
+{
+    "id": "12",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "옥수수 껍질",
+    "NOTE": ""
+},
+{
+    "id": "13",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "생강 껍질",
+    "NOTE": ""
+},
+{
+    "id": "14",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "마늘 껍질",
+    "NOTE": ""
+},
+{
+    "id": "15",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "뿌리",
+    "CONTENTS": "쪽파 뿌리",
+    "NOTE": ""
+},
+{
+    "id": "16",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "뿌리",
+    "CONTENTS": "대파 뿌리",
+    "NOTE": ""
+},
+{
+    "id": "17",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "뿌리",
+    "CONTENTS": "미나리 뿌리",
+    "NOTE": ""
+},
+{
+    "id": "18",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "씨앗",
+    "CONTENTS": "고추 씨",
+    "NOTE": ""
+},
+{
+    "id": "19",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "대",
+    "CONTENTS": "고추 대",
+    "NOTE": ""
+},
+{
+    "id": "20",
+    "CLASS": "채소류",
+    "CHARACTERISTICS": "대",
+    "CONTENTS": "옥수수 대",
+    "NOTE": ""
+},
+{
+    "id": "21",
+    "CLASS": "육류",
+    "CHARACTERISTICS": "뼈",
+    "CONTENTS": "닭 뼈",
+    "NOTE": ""
+},
+{
+    "id": "22",
+    "CLASS": "육류",
+    "CHARACTERISTICS": "뼈",
+    "CONTENTS": "소 뼈",
+    "NOTE": ""
+},
+{
+    "id": "23",
+    "CLASS": "육류",
+    "CHARACTERISTICS": "뼈",
+    "CONTENTS": "돼지 뼈",
+    "NOTE": ""
+},
+{
+    "id": "24",
+    "CLASS": "육류",
+    "CHARACTERISTICS": "내장,비계",
+    "CONTENTS": "고기 비계",
+    "NOTE": ""
+},
+{
+    "id": "25",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "뼈,가시",
+    "CONTENTS": "생선 뼈",
+    "NOTE": ""
+},
+{
+    "id": "26",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "조개 껍질",
+    "NOTE": ""
+},
+{
+    "id": "27",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "소라 껍질",
+    "NOTE": ""
+},
+{
+    "id": "28",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "홍합 껍질",
+    "NOTE": ""
+},
+{
+    "id": "29",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "멍게 껍질",
+    "NOTE": ""
+},
+{
+    "id": "30",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "굴 껍질",
+    "NOTE": ""
+},
+{
+    "id": "31",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "게 껍질",
+    "NOTE": ""
+},
+{
+    "id": "32",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "가재 껍질",
+    "NOTE": ""
+},
+{
+    "id": "33",
+    "CLASS": "어패류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "전복 껍질",
+    "NOTE": ""
+},
+{
+    "id": "34",
+    "CLASS": "알류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "계란 껍질",
+    "NOTE": ""
+},
+{
+    "id": "35",
+    "CLASS": "알류",
+    "CHARACTERISTICS": "껍질",
+    "CONTENTS": "메추리알 껍질",
+    "NOTE": ""
+},
+{
+    "id": "36",
+    "CLASS": "티백,차",
+    "CHARACTERISTICS": "찌꺼기",
+    "CONTENTS": "일회용 티백",
+    "NOTE": "생활 폐기물로 분류"
+},
+{
+    "id": "37",
+    "CLASS": "티백,차",
+    "CHARACTERISTICS": "찌꺼기",
+    "CONTENTS": "차 찌꺼기",
+    "NOTE": "생활 폐기물로 분류"
+},
+{
+    "id": "38",
+    "CLASS": "티백,차",
+    "CHARACTERISTICS": "찌꺼기",
+    "CONTENTS": "한약재 찌꺼기",
+    "NOTE": "생활 폐기물로 분류"
+},
+{
+    "id": "39",
+    "CLASS": "티백,차",
+    "CHARACTERISTICS": "찌꺼기",
+    "CONTENTS": "과일즙을 만들고 남은 찌꺼기",
+    "NOTE": "생활 폐기물로 분류"
+},
+{
+    "id": "40",
+    "CLASS": "장류",
+    "CHARACTERISTICS": "",
+    "CONTENTS": "된장",
+    "NOTE": "염분이 많아 사료,퇴비로 적당하지 않음"
+},
+{
+    "id": "41",
+    "CLASS": "장류",
+    "CHARACTERISTICS": "",
+    "CONTENTS": "고추장",
+    "NOTE": "염분이 많아 사료,퇴비로 적당하지 않음"
+},
+{
+    "id": "42",
+    "CLASS": "육류",
+    "CHARACTERISTICS": "내장,비계",
+    "CONTENTS": "고기 비계",
+    "NOTE": ""
+}
+]
+
+}
+]
