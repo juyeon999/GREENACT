@@ -31,6 +31,8 @@ getHtml()
         });
         //return ulList;
         const ulListJSON = JSON.stringify(ulList);
-        return ulListJSON;
+        //return ulListJSON;
+        const ulListJSONfile = JSON.parse(ulListJSON);
+        return ulListJSONfile;
     })
     .then((res) => log(res));
