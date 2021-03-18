@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const testData = { a: 1, b: 2, c: 3 };
 app.use(cors());
+app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Server Response Success");
@@ -15,7 +16,7 @@ app.get("/test", (req, res) => {
   res.send(JSON.stringify(testData));
 });
 
-app.get("/login", login);
+app.post("/login", login);
 
 app.listen(PORT, () => {
   console.log(`Server On : http://localhost:${PORT}/`);
