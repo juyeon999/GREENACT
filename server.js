@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000;
 const testData = { a: 1, b: 2, c: 3 };
 app.use(cors());
 app.use(express.json());
-
+console.log(app.route("db.json"));
 app.get("/", (req, res) => {
   res.send("Server Response Success");
 });
