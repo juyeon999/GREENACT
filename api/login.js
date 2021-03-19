@@ -8,7 +8,7 @@ const login = (request, response) => {
   );
   user !== undefined ? response.status(200) : response.status(400);
   console.log(JSON.stringify(user));
-  response.json(JSON.stringify(user));
+  response.send(JSON.stringify(user));
 };
 
 module.exports = login;
