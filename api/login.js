@@ -7,8 +7,7 @@ const login = (request, response) => {
     (user) => user.username === username && user.password === password
   );
   user !== undefined ? response.status(200) : response.status(400);
-  console.log(JSON.stringify(user));
-  response.send(JSON.stringify(user));
+  response.json(user);
 };
 
 module.exports = login;
