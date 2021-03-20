@@ -14,10 +14,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Server Response Success");
 });
-app.get("/test", (req, res) => {
-  console.log("start");
-  res.send(JSON.stringify(testData));
-});
+app.get("/news", news.getNews);
 
 app.post("/login", login);
 

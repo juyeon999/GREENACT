@@ -32,14 +32,12 @@ const refreshNews = () => {
         };
       });
       //return ulList;
-      const ulListJSON = JSON.stringify(ulList);
-      //return ulListJSON;
-      // const ulListJSONfile = JSON.parse(ulListJSON);
-      // console.log(ulListJSON);
-      return ulListJSON;
+      return ulList;
     })
     .then((newList) => (news = [...news, ...newList]));
 };
 
+const getNews = (request, response) => response.json(news);
+
 module.exports.refreshNews = refreshNews;
-// module.exports.news = news;
+module.exports.getNews = getNews;
