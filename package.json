@@ -9,6 +9,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jQuery": "^1.7.4",
+    "json-server": "^0.16.3",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},
@@ -26,5 +27,4 @@
     "url": "https://github.com/juyeon999/Greenact/issues"
   },
   "homepage": "https://github.com/juyeon999/Greenact#readme"
-
 }
