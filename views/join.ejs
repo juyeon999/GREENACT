@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h3>회원 가입</h3>
+<form action="/auth/join" method="post">
+    <table>
+        <tr>
+            <td>닉네임 : </td>
+            <td><input type="text" name="nick"></td>
+        </tr>
+        <tr>
+            <td>이메일 : </td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>비번 : </td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <Ul>
+            <li>
+                <input type="checkbox" name="interest" value="분리수거"/>
+                <label>분리수거</label>
+            </li>
+            <li>
+                <input type="checkbox" name="interest" value="캠페인"/>
+                <label>캠페인</label>
+            </li>
+            <li>
+                <input type="checkbox" name="interest" value="뉴스"/>
+                <label>뉴스</label>
+            </li>
+            <li>
+                <input type="checkbox" name="interest" value="재활용"/>
+                <label>재활용</label>
+            </li>
+            <li>
+                <input type="checkbox" name="interest" value="커뮤니티"/>
+                <label>커뮤니티</label>
+            </li>
+        </Ul>
+        <tr>
+            <td><input type="submit" value="회원가입"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+

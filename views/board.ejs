@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>목록 추가하기</h1>
+<hr>
+
+<form action="/board/write" method="POST">
+    <table>
+        <tr>
+            <td><input type="text" name="title" placeholder="제목을 입력하세요."></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="content" placeholder="내용을 입력하세요."></td>
+        </tr>
+<!--        <tr>-->
+<!--            <td><input type="img" name="inputImg" placeholder="내용을 입력하세요."></td>-->
+<!--        </tr>-->
+    </table>
+    <input type="submit" value="전송하기">
+</form>
+
+<table>
+    <tr>
+        <td>제목</td>
+        <td>작성자</td>
+        <td>작성일</td>
+    </tr>
+    <% for(let post of posts) { %>
+        <tr>
+            <td><%= post.title %></td>
+            <td><%= post.writer %></td>
+            <td><%= post.createdAt %></td>
+            <td><button ><a href="/board/edit/<%=post.id%>">수정하기</a></button></td>
+
+            <form action="/board/<%=post.id%>?_method=DELETE" method="post">
+                <td><input type="submit" value="삭제하기"></input></td>
+            </form>
+        </tr>
+    <% } %>
+</table>
+</body>
+</html>
