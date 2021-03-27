@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ebfb4b2-bfeb-45b9-a307-576d462010b0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
@@ -44,36 +45,18 @@
       <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/views/main.html" afterDir="false" />
+=======
+>>>>>>> parent of 3771226 ([Add] 프로젝트 파일 생성, 회원가입/로그인/로그아웃, 게시판 작성 구현)
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/news.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="ProjectId" id="1nydBPqqF2oH3wQULqHGYFvfgap" />
   <component name="ProjectViewState">
@@ -81,37 +64,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\songa\purpleCode\GreenAct\public" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\views" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\models" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\routes" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\passport" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\songa\purpleCode\GreenAct\views" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\routes" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\views\user" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\api" />
-      <recent name="C:\Users\songa\purpleCode\GreenAct\config" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,9 +84,12 @@
       <workItem from="1615006555076" duration="3285000" />
       <workItem from="1615010564994" duration="3105000" />
       <workItem from="1615605447646" duration="2337000" />
+<<<<<<< HEAD
       <workItem from="1616041822642" duration="31826000" />
       <workItem from="1616240172192" duration="11919000" />
       <workItem from="1616742836917" duration="52491000" />
+=======
+>>>>>>> parent of 3771226 ([Add] 프로젝트 파일 생성, 회원가입/로그인/로그아웃, 게시판 작성 구현)
     </task>
     <servers />
   </component>
@@ -147,5 +107,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="0" key="#Intentions" timestamp="1612499734325">
+      <screen x="0" y="0" width="1097" height="587" />
+    </state>
+    <state x="141" y="0" key="#Intentions/0.0.1097.587@0.0.1097.587" timestamp="1612499734325" />
+    <state x="329" y="49" key="FileChooserDialogImpl" timestamp="1615006445875">
+      <screen x="0" y="0" width="1097" height="587" />
+    </state>
+    <state x="329" y="49" key="FileChooserDialogImpl/0.0.1097.587@0.0.1097.587" timestamp="1615006445875" />
   </component>
 </project>
