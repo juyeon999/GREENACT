@@ -20,7 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ebfb4b2-bfeb-45b9-a307-576d462010b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passport/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passport/kakaoStrategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passport/localStrategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/middlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/board.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/edit.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/join.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/login.js" beforeDir="false" />
@@ -106,7 +129,7 @@
       <workItem from="1615605447646" duration="2337000" />
       <workItem from="1616041822642" duration="31826000" />
       <workItem from="1616240172192" duration="11919000" />
-      <workItem from="1616742836917" duration="50171000" />
+      <workItem from="1616742836917" duration="52491000" />
     </task>
     <servers />
   </component>
