@@ -6,7 +6,7 @@ const session = require('express-session');
 const nunjucks = require('nunjucks');
 const dotenv = require('dotenv');
 const passport = require('passport');
-const methodOverride = require('method-override'); //PUT
+const methodOverride = require('method-override'); //PUT, DELETE
 
 dotenv.config();
 const mainRouter = require('./routes/main');

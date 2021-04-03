@@ -5,10 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-<h1>목록 추가하기</h1>
+<h1>목록 수정하기</h1>
 <hr>
 
-<form action="/board/edit<%= post.id %>?_method=PUT" method="post">
+<form action="/board/edit/<%= post.id %>?_method=PUT" method="post">
     <table>
         <tr>
             <td><input type="text" name="title" value="<%= post.title %>"></td>

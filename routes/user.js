@@ -8,15 +8,15 @@
 //     res.locals.user = null;
 //     next();
 // });
-// // const login = (request, response) => {
-// //   const { username, password } = request.body;
-// //   const user = users.find(
-// //       (user) => user.username === username && user.password === password
-// //   );
-// //   user !== undefined ? response.status(200) : response.status(400);
-// //   console.log(JSON.stringify(user));
-// //   response.json(JSON.stringify(user));
-// // };
+// const login = (request, response) => {
+//   const { username, password } = request.body;
+//   const user = users.find(
+//       (user) => user.username === username && user.password === password
+//   );
+//   user !== undefined ? response.status(200) : response.status(400);
+//   console.log(JSON.stringify(user));
+//   response.json(JSON.stringify(user));
+// };
 //
 // //회원가입
 // router.get('/Signup', function(req, res, next) {

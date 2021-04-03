@@ -18,13 +18,14 @@ router.post('/join', isNotLoggedIn, async (req, res, next) => {
       return res.redirect('/join?error=exist');
     }
     const hash = await bcrypt.hash(password, 12);
-    await User.create({
+    let result = await User.create({
       nick,
       email,
       password: hash,
       interest,
     });
-    return res.redirect('/');
+    console.log(JSON.stringify(result));
+    return res.json(JSON.stringify(result)); //가입 완료하면 첫화면으로 돌아감 res.redirect('/login'); res.json(JSON.stringify(User));
   } catch (error) {
     console.error(error);
     return next(error);
@@ -49,7 +50,8 @@ router.post('/login', isNotLoggedIn, (req, res, next) => {
         console.error(loginError);
         return next(loginError);
       }
-      return res.render("login");
+      console.log(JSON.stringify(user));
+      return res.json(JSON.stringify(user)); // res.render("login");
     });
   })(req, res, next); // 미들웨어 내의 미들웨어에는 (req, res, next)
 });
