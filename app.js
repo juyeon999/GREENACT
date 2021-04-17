@@ -7,6 +7,7 @@ const nunjucks = require('nunjucks');
 const dotenv = require('dotenv');
 const passport = require('passport');
 const methodOverride = require('method-override'); //PUT, DELETE
+const http = require('http');
 
 dotenv.config();
 const mainRouter = require('./routes/main');
@@ -19,19 +20,22 @@ const passportConfig = require('./passport');
 const app = express();
 passportConfig();// 패스포트 설정
 
-// const testData = { a: 1, b: 2, c: 3 };
-// app.use(express.json());
-// app.use(express.urlencoded({extended : false}));
+const hostname = '3.34.157.240'
 
-// app.get("/test", (req, res) => {
-//   console.log("start");
-//   res.send(JSON.stringify(testData));
-// });
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+});
 
 app.set('port', process.env.PORT || 4000);
 
 app.set('views', __dirname + '/views'); // 변경하기
 app.set('view engine', 'ejs'); // 변경하기
+
+
+app.get('/', (req, res) => {
+  res.send('Hello')
+});
+
 // app.set('view engine', 'html');
 // nunjucks.configure('views', {
 //   express: app,
@@ -47,6 +51,7 @@ sequelize.sync({ force: false })
 
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/img', express.static(path.join(__dirname,'uploads')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser(process.env.COOKIE_SECRET));
@@ -68,6 +73,7 @@ app.use(methodOverride('_method'));
 app.use('/', mainRouter);
 app.use('/auth', authRouter);
 app.use('/board', boardRouter);
+app.use('/board', boardRouter);
 
 //404 응답 미들웨어
 app.use((req, res, next) => {
@@ -75,6 +81,7 @@ app.use((req, res, next) => {
   error.status = 404;
   next(error);
 });
+
 //에러 처리 미들웨어
 app.use((err, req, res, next) => {
   res.locals.message = err.message;
