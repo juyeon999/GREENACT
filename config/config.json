@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "1111",
-    "database": "greenactdb",
-    "host": "127.0.0.1",
+    "username": "green",
+    "password": "green",
+    "database": "green",
+    "host": "3.34.157.240",
     "dialect": "mysql"
   },
   "test": {

@@ -6,9 +6,15 @@ const User = require('../models/user');
 
 const router = express.Router();
 
-router.get('/join', (req, res) => {
-  res.render('join', { title: '회원가입' });
-});
+router.use((req, res, next)=>{
+      res.locals.user = req.user;
+      next();
+    }
+)
+
+// router.get('/join', (req, res) => {
+//   res.render('join', { title: '회원가입' });
+// });
 
 router.post('/join', isNotLoggedIn, async (req, res, next) => {
   const { nick, email, password, interest } = req.body;
@@ -32,9 +38,9 @@ router.post('/join', isNotLoggedIn, async (req, res, next) => {
   }
 });
 
-router.get('/login', (req, res, next) => {
-  res.render('login', { title: '로그인' });
-});
+// router.get('/login', (req, res, next) => {
+//   res.render('login', { title: '로그인' });
+// });
 
 router.post('/login', isNotLoggedIn, (req, res, next) => {
   passport.authenticate('local', (authError, user, info) => {
