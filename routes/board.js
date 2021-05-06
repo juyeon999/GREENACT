@@ -121,17 +121,3 @@ router.delete('/delete/:id', isLoggedIn, function(req, res, next) {
     }
 });
 module.exports = router;
-
-// // private functions // 1
-// function checkPermission(req, res, next){
-//     Post.findOne({
-//         author:req.user.nick
-//         },
-//         function(err, post){
-//         if(err) return res.json(err);
-//         if(post.author !== req.user.nick)
-//             return util.noPermission(req, res);
-//
-//         next();
-//     });
-// }
